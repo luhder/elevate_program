@@ -6,15 +6,61 @@ This is a Selenium-based test automation project that utilizes TestNG for runnin
 
 Project Structure
 ```
-├── README.md             # Project documentation
-├── pom.xml               # Maven project configuration
-├── testng.xml            # TestNG suite configuration
-├── doc/                  # Generated documentation for tests
-├── src/                  # Source code for test cases
-│   └── test/
-│       └── java/         # Java test scripts
-├── test-output/          # Test reports and logs
-└── resources/            # Additional resources (if applicable)
+Directory structure:
+└── luhder-elevate_program/
+    ├── README.md
+    ├── pom.xml
+    ├── testng.xml
+    ├── src/
+    │   └── test/
+    │       └── java/
+    │           ├── ActionsSelenium.java
+    │           ├── Alert.java
+    │           ├── AumationDemoSiteForm.java
+    │           ├── BrokenURL.java
+    │           ├── DataDriven.java
+    │           ├── OrangeHRM.java
+    │           ├── crossBrowser.java
+    │           ├── demoWebShop.java
+    │           ├── fileUploadDownload.java
+    │           ├── formHandling.java
+    │           ├── login.java
+    │           └── multipleWindow.java
+    └── test-output/
+        ├── emailable-report.html
+        ├── index.html
+        ├── testng-failed.xml
+        ├── testng-reports.css
+        ├── testng-reports.js
+        ├── testng-reports1.css
+        ├── testng-reports2.js
+        ├── testng-results.xml
+        ├── testng.css
+        ├── Default suite/
+        │   ├── Default test.html
+        │   ├── Default test.xml
+        │   └── testng-failed.xml
+        ├── junitreports/
+        │   ├── TEST-ActionsSelenium.xml
+        │   ├── TEST-endtoend.xml
+        │   ├── TEST-fileUploadDownload.xml
+        │   ├── TEST-login.xml
+        │   └── TEST-search.xml
+        └── old/
+            ├── index.html
+            └── Default suite/
+                ├── Default test.properties
+                ├── classes.html
+                ├── groups.html
+                ├── index.html
+                ├── main.html
+                ├── methods-alphabetical.html
+                ├── methods-not-run.html
+                ├── methods.html
+                ├── reporter-output.html
+                ├── testng.xml.html
+                └── toc.html
+
 ```
 **Prerequisites**
 
